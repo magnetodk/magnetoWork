@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=no" />
+  <link href="style/import.css" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="js/magnific-popup.css">
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- Magnific Popup core JS file -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <title>PORTFOLIO</title>
+</head>
+
+<body>
+
+  <div id="wrap">
+    <div id="filters" class="menu button-group">
+      <div class="hamburger-menu-wrapper">
+        <button class="hamburger-menu"> <span>toggle menu</span> </button>
+      </div>
+      <div class="menu-list">
+        <a href="#a" class="current" data-filter="*">All</a>
+        <a href="#a" data-filter=".web">Web</a>
+        <a href="#a" data-filter=".mobile">Mobile</a>
+        <a href="#a" data-filter=".event">Promotion</a>
+        <a href="#a" data-filter=".print">Print</a>
+      </div>
+      <script>
+        (function () {
+          'use strict';
+          $('.hamburger-menu').click(function (e) {
+            e.preventDefault();
+            if ($(this).hasClass('active')) {
+              $(this).removeClass('active');
+              $('.menu-overlay').fadeToggle('fast', 'linear');
+              $('.menu .menu-list').slideToggle('slow', 'swing');
+              $('.hamburger-menu-wrapper').toggleClass('bounce-effect');
+            } else {
+              $(this).addClass('active');
+              $('.menu-overlay').fadeToggle('fast', 'linear');
+              $('.menu .menu-list').slideToggle('slow', 'swing');
+              $('.hamburger-menu-wrapper').toggleClass('bounce-effect');
+            }
+          });
+
+          $('.menu .menu-list').click(function (e) {
+            e.preventDefault();
+            $(this).addClass('active');
+            $('.hamburger-menu').removeClass('active');
+            $('.menu-overlay').fadeToggle('fast', 'linear');
+            $('.menu .menu-list').slideToggle('slow', 'swing');
+            $('.hamburger-menu-wrapper').toggleClass('bounce-effect');
+
+          });
+
+        })();
+
+      </script>
+    </div>
+
+    <div id="s-container">
+      <div id="contents">
+        <div class="section2">
+          <h2 id="work">PORTFOLIO</h2>
+          <div class="pf_list">
+            <div class="artist-list" id="artist-list">
+              <!-- 2022.11.29 -->
+              <div class="element-item  print" data-category="print">
+                <a href="loadView/loadView_01065.html" class="por ajax-popup-link" data-item="60">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0058.png" alt="기업소개 폼보드" class="default_img" />
+                  <span>기업소개 폼보드</span>
+                </a>
+              </div>
+              <div class="element-item  print" data-category="print">
+                <a href="loadView/loadView_01064.html" class="por ajax-popup-link" data-item="60">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0057.png" alt="기업 브로슈어" class="default_img" />
+                  <span>기업 브로슈어</span>
+                </a>
+              </div>
+              <div class="element-item  print" data-category="print">
+                <a href="loadView/loadView_01063.html" class="por ajax-popup-link" data-item="60">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0056.png" alt="제주/우도 버스 위치 정보 서비스" class="default_img" />
+                  <span>제주/우도 버스 위치 정보 서비스</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01062.html" class="por ajax-popup-link" data-item="60">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0055.png" alt="대홍기획 영상 아카이브" class="default_img" />
+                  <span>대홍기획 영상 아카이브 웹사이트</span>
+                </a>
+              </div>
+              <!-- 2022.01.25 -->
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01061.html" class="por ajax-popup-link" data-item="60">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0048.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 배달앱</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01060.html" class="por ajax-popup-link" data-item="59">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0049.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 기계</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01059.html" class="por ajax-popup-link" data-item="58">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0050.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 식품</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01058.html" class="por ajax-popup-link" data-item="57">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0051.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 교육</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01057.html" class="por ajax-popup-link" data-item="56">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0053.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 건설</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01056.html" class="por ajax-popup-link" data-item="55">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0052.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 바이오</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01055.html" class="por ajax-popup-link" data-item="54">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0054.png" alt="일자리재단 기업웹사이트" class="default_img" />
+                  <span>일자리재단 기업웹사이트 - 뷰티</span>
+                </a>
+              </div>
+              <!-- //2022.01.25 -->
+              <!-- 2021.07.13 -->
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01046.html" class="por ajax-popup-link" data-item="45">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0039.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01047.html" class="por ajax-popup-link" data-item="46">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0044.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01048.html" class="por ajax-popup-link" data-item="47">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0040.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01049.html" class="por ajax-popup-link" data-item="48">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0041.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01050.html" class="por ajax-popup-link" data-item="49">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0042.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01051.html" class="por ajax-popup-link" data-item="50">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0045.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01052.html" class="por ajax-popup-link" data-item="51">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0043.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01053.html" class="por ajax-popup-link" data-item="52">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0047.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01054.html" class="por ajax-popup-link" data-item="53">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0046.png" alt="컨텐츠UI 디자인" class="default_img" />
+                  <span>컨텐츠UI 디자인</span>
+                </a>
+              </div>
+              <!-- // 2021.07.13 -->
+              <div class="element-item web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01001.html" class="por ajax-popup-link" data-item="1">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_007.png" alt="대한민국 구석구석" class="default_img" />
+                  <span>대한민국 구석구석</span>
+                </a>
+              </div>
+              <div class="element-item event mobile" data-category=" event mobile">
+                <a href="loadView/loadView_01002.html" class="por ajax-popup-link" data-item="2">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0045.png" alt="대한민국 구석구석 이벤트" class="default_img" />
+                  <span>대한민국 구석구석 이벤트</span>
+                </a>
+              </div>
+              <div class="element-item print mobile" data-category=" print">
+                <a href="loadView/loadView_01041.html" class="por ajax-popup-link" data-item="3">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/print_img_001.png" alt="대한민국 구석구석 리플렛" class="default_img" />
+                  <span>대한민국 구석구석 리플렛</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01003.html" class="por ajax-popup-link" data-item="4">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0038.png" alt="흥국생명 사고조사시스템" class="default_img" />
+                  <span>흥국생명 사고조사시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01004.html" class="por ajax-popup-link" data-item="5">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_005.png" alt="대한민국 구석구석" class="default_img" />
+                  <span>대한민국 구석구석</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01005.html" class="por ajax-popup-link" data-item="6">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0037.png" alt="굿네이버스 채용관리" class="default_img" />
+                  <span>굿네이버스 채용관리</span>
+                </a>
+              </div>
+              <div class="element-item  web " data-category=" web">
+                <a href="loadView/loadView_01006.html" class="por ajax-popup-link" data-item="7">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0036.png" alt="대우건설 채용관리" class="default_img" />
+                  <span>대우건설 채용관리</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01007.html" class="por ajax-popup-link" data-item="8">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_006.png" alt="대한민국 구석구석" class="default_img" />
+                  <span>대한민국 구석구석</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01037.html" class="por ajax-popup-link" data-item="9">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0030.png" alt="유진그룹 인사관리시스템" class="default_img" />
+                  <span>유진그룹 인사관리시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01042.html" class="por ajax-popup-link" data-item="10">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0026.png" alt="해양항만상황관리시스템" class="default_img" />
+                  <span>해양항만상황관리시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01043.html" class="por ajax-popup-link" data-item="11">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0022.png" alt="해상교통관제시스템" class="default_img" />
+                  <span>해상교통관제시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01038.html" class="por ajax-popup-link" data-item="12">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0031.png" alt="KB국민은행 해외인사관리시스템" class="default_img" />
+                  <span>KB국민은행 해외인사시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01039.html" class="por ajax-popup-link" data-item="13">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0034.png" alt="네트웍스 O&S 인사관리시스템" class="default_img" />
+                  <span>네트웍스 O&S 인사관리시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01040.html" class="por ajax-popup-link" data-item="14">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0029.png" alt="프렌즈 기업홈페이지" class="default_img" />
+                  <span>프렌즈 기업홈페이지</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01008.html" class="por ajax-popup-link" data-item="15">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0035.png" alt="포스코 E&C" class="default_img" />
+                  <span>포스코 E&C</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01009.html" class="por ajax-popup-link" data-item="16">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0032.png" alt="알래스카 프린츠" class="default_img" />
+                  <span>알래스카 프린츠</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01010.html" class="por ajax-popup-link" data-item="17">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0044.png" alt="에이팀 게임사이트" class="default_img" />
+                  <span>에이팀 게임사이트</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01011.html" class="por ajax-popup-link" data-item="14">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0028.png" alt="두산 사회공헌" class="default_img" />
+                  <span>두산 사회공헌</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01012.html" class="por ajax-popup-link" data-item="18">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0027.png" alt="방제자원관리시스템" class="default_img" />
+                  <span>방제자원관리시스템</span>
+                </a>
+              </div>
+              <div class="element-item  mobile" data-category=" mobile">
+                <a href="loadView/loadView_01013.html" class="por ajax-popup-link" data-item="19">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_004.png" alt="IBK 기업은행 모바일" class="default_img" />
+                  <span>IBK 기업은행 모바일</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01014.html" class="por ajax-popup-link" data-item="20">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_001.png" alt="포켓 아레나 모바일앱웹" class="default_img" />
+                  <span>포켓 아레나 모바일앱</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01015.html" class="por ajax-popup-link" data-item="21">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_002.png" alt="헬로우 게임즈 모바일앱웹" class="default_img" />
+                  <span>헬로우 게임즈 모바일앱웹</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01016.html" class="por ajax-popup-link" data-item="22">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0020.png" alt="해양방제자원시스템" class="default_img" />
+                  <span>해양방제자원시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01017.html" class="por ajax-popup-link" data-item="23">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0019.png" alt="시간거리 정보시스템" class="default_img" />
+                  <span>시간거리 정보시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01018.html" class="por ajax-popup-link" data-item="24">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/mobile_img_003.png" alt="우리만나 모바일앱" class="default_img" />
+                  <span>우리만나 모바일앱</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01019.html" class="por ajax-popup-link" data-item="25">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0023.png" alt="MEH GMT Korea" class="default_img" />
+                  <span>MEH GMT Korea</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01044.html" class="por ajax-popup-link" data-item="26">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0025.png" alt="MEH GMT Korea" class="default_img" />
+                  <span>MEH GMT Korea</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01020.html" class="por ajax-popup-link" data-item="27">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0033.png" alt="광산김씨대종회" class="default_img" />
+                  <span>광산김씨대종회</span>
+                </a>
+              </div>
+              <div class="element-item  print" data-category=" print">
+                <a href="loadView/loadView_01021.html" class="por ajax-popup-link" data-item="28">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/icon_img_0010.png" alt="해양아이콘 작업물" class="default_img" />
+                  <span>해양아이콘 작업물</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01022.html" class="por ajax-popup-link" data-item="29">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0021.png" alt="HS보상지원시스템" class="default_img" />
+                  <span>HS보상지원시스템</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01023.html" class="por ajax-popup-link" data-item="30">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0017.png" alt="해병대챌린저" class="default_img" />
+                  <span>해병대챌린저</span>
+                </a>
+              </div>
+              <div class="element-item  print" data-category="print">
+                <a href="loadView/loadView_01024.html" class="por ajax-popup-link" data-item="31">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/icon_img_0011.png" alt="씨젠 의약관련 아이콘작업" class="default_img" />
+                  <span>씨젠 의약관련 아이콘작업</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01025.html" class="por ajax-popup-link" data-item="32">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0024.png" alt="씨젠 홈페이지 리뉴얼" class="default_img" />
+                  <span>씨젠 홈페이지 리뉴얼</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01026.html" class="por ajax-popup-link" data-item="33">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0018.png" alt="스타그룹코리아 홈페이지" class="default_img" />
+                  <span>스타그룹 코리아</span>
+                </a>
+              </div>
+              <div class="element-item  web mobile" data-category=" web mobile">
+                <a href="loadView/loadView_01027.html" class="por ajax-popup-link" data-item="34">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0016.png" alt="누리엔 street food king" class="default_img" />
+                  <span>누리엔 street food king</span>
+                </a>
+              </div>
+              <div class="element-item  web print" data-category=" web print">
+                <a href="loadView/loadView_01028.html" class="por ajax-popup-link" data-item="35">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/icon_img_009.png" alt="누리엔 게임 아이콘작업" class="default_img" />
+                  <span>누리엔 게임 아이콘작업</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01029.html" class="por ajax-popup-link" data-item="36">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0014.png" alt="누리엔 스푼 커뮤니티 사이트" class="default_img" />
+                  <span>누리엔 스푼 커뮤니티 사이트</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01045.html" class="por ajax-popup-link" data-item="37">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0013.png" alt="누리엔 스푼 시안작업물" class="default_img" />
+                  <span>누리엔 스푼 시안작업물</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01030.html" class="por ajax-popup-link" data-item="38">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0015.png" alt="누리엔 엠스타" class="default_img" />
+                  <span>누리엔 엠스타</span>
+                </a>
+              </div>
+              <div class="element-item  event" data-category=" event">
+                <a href="loadView/loadView_01031.html" class="por ajax-popup-link" data-item="39">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0042.png" alt="쇼핑몰 이벤트" class="default_img" />
+                  <span>쇼핑몰 이벤트</span>
+                </a>
+              </div>
+              <div class="element-item  event" data-category=" event">
+                <a href="loadView/loadView_01032.html" class="por ajax-popup-link" data-item="40">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0043.png" alt="배너광고" class="default_img" />
+                  <span>배너광고</span>
+                </a>
+              </div>
+              <div class="element-item  web" data-category=" web">
+                <a href="loadView/loadView_01033.html" class="por ajax-popup-link" data-item="41">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/web_img_0012.png" alt="금산레저랜드" class="default_img" />
+                  <span>금산레저랜드</span>
+                </a>
+              </div>
+              <div class="element-item event" data-category=" event">
+                <a href="loadView/loadView_01034.html" class="por ajax-popup-link" data-item="42">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0041.png" alt="게임메카 이벤트프로모션" class="default_img" />
+                  <span>게임메카 이벤트프로모션</span>
+                </a>
+              </div>
+              <div class="element-item event" data-category="event">
+                <a href="loadView/loadView_01035.html" class="por ajax-popup-link" data-item="43">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0040.png" alt="이벤트 프로모션" class="default_img" />
+                  <span>이벤트 프로모션</span>
+                </a>
+              </div>
+              <div class="element-item event" data-category="event">
+                <a href="loadView/loadView_01036.html" class="por ajax-popup-link" data-item="44">
+                  <div class="over-lay"></div>
+                  <img src="images/thum/event_img_0039.png" alt="이벤트 프로모션" class="default_img" />
+                  <span>이벤트 프로모션</span>
+                </a>
+              </div>
+
+            </div>
+          </div><!-- pf_list -->
+        </div>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <!-- Img resize 정렬 jquery -->
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <!-- Category jquery  -->
+
+        <!-- 포트폴리오 리스트 효과 스크립트 -->
+        <script type="text/javascript">
+          $(function () {
+            var $element = $(".element-item");
+            var $wid = $(window).width();
+            if ($wid >= 1025) {
+              $element.on("mouseover", function () {
+                $(this).find(".over-lay").show();
+                $(this).find("a").addClass("on");
+              });
+              $element.on("mouseout", function () {
+                $(this).find(".over-lay").hide();
+                $(this).find("a").removeClass("on");
+              });
+            }
+
+            var $artistList = $('#artist-list');
+
+            $artistList.isotope({
+              itemSelector: '.element-item',
+              layoutMode: 'fitRows',
+              percentPosition: true,
+              transitionDuration: "0.6s",
+            });
+
+            $artistList.imagesLoaded().progress(function () {
+              $artistList.isotope('layout');
+            });
+
+            var filterFns = {
+              // show if number is greater than 50
+              numberGreaterThan50: function () {
+                var number = $(this).find('.number').text();
+                return parseInt(number, 10) > 50;
+              },
+              // show if name ends with -ium
+              ium: function () {
+                var name = $(this).find('.name').text();
+                return name.match(/ium$/);
+              }
+            };
+
+            // bind filter button click
+            $('#filters a').on('click', function () {
+              var filterValue = $(this).attr('data-filter');
+              // use filterFn if matches value
+              filterValue = filterFns[filterValue] || filterValue;
+              $artistList.isotope({
+                filter: filterValue
+              });
+            });
+
+            // change is-checked class on buttons
+            $('.button-group').each(function (i, buttonGroup) {
+              var $buttonGroup = $(buttonGroup);
+              $buttonGroup.on('click', 'a', function () {
+                $buttonGroup.find('.current').removeClass('current');
+                $(this).addClass('current');
+              });
+            });
+          });
+
+        </script>
+      </div>
+    </div>
+  </div><!-- wrap -->
+</body>
+<script>
+  $('.ajax-popup-link').magnificPopup({
+    type: 'ajax',
+    alignTop: true,
+    overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+  });
+
+</script>
+
+</html>
