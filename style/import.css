@@ -44,11 +44,11 @@ a:focus { text-decoration:none; color:#000;}
 
 
 #wrap {width:100%; position:relative; overflow:hidden;z-index: 200;}
-#view {width: auto;color:#2e495e;line-height:20px;position:relative; width:100%; height:auto; padding:20px 20px 20px 10px; box-sizing:border-box; margin:0 auto; overflow:hidden;}
+#view {width: auto;color:#2e495e;line-height:20px;position:relative; width:100%; height:auto; /*padding:20px 20px 20px 10px;*/ box-sizing:border-box; margin:0 auto; overflow:hidden;}
 #view img {width: 100%;padding-top: 10px;}
 #view h2 {position:relative;font-weight: bold;padding: 0 0 10px 0;}
 #view dl {padding:0 0 5px 0;}
 #view dl dt {font-size: 15px;;}
 #view dl dd {font-size: 12px;letter-spacing: -1.5}
 
-.white-popup-block {background: #FFF;padding: 20px 10px;text-align: left;max-width: 1000px !important;margin: 40px auto;position: relative}
+.white-popup-block {background: #FFF;padding: 30px;text-align: left;max-width: 1000px !important;margin: 40px auto;position: relative}
