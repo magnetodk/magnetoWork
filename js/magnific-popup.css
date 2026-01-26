@@ -123,9 +123,9 @@ button::-moz-focus-inner {
   border: 0; }
 
 .mfp-close {
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
+  width: 76px;
+  height: 76px;
+  line-height: 76px;
   position: absolute;
   right: 0;
   top: 0;
