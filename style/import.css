@@ -51,6 +51,6 @@ a:focus { text-decoration:none; color:#000;}
 #view dl dt {font-size: 1.2rem;line-height: 2.3;}
 #view dl dd {font-size: .95rem;letter-spacing: -.5px;line-height: 1.5;}
 
-.white-popup-block {background: #FFF;text-align: left;max-width: 1200px !important;margin: 40px auto;position: relative}
+.white-popup-block {background: #FFF;text-align: left;max-width: 1000px !important;margin: 40px auto;position: relative}
 
 .dsc-box {padding: 30px 30px 30px 30px}
