@@ -48,8 +48,8 @@ a:focus { text-decoration:none; color:#000;}
 #view img {max-width: 100%; display:block; margin: 0 auto;}
 #view h2 {position:relative;font-weight: bold;padding: 0 0 10px 0;}
 #view dl {padding:0 0 5px 0;}
-#view dl dt {font-size: 15px;}
-#view dl dd {font-size: 12px;letter-spacing: -1.5}
+#view dl dt {font-size: 1.3rem;line-height: 1.5;}
+#view dl dd {font-size: 1rem;letter-spacing: -1.5;line-height: 1;}
 
 .white-popup-block {background: #FFF;text-align: left;max-width: 1200px !important;margin: 40px auto;position: relative}
 
